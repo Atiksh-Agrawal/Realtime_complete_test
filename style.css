@@ -1,0 +1,21 @@
+.btn-info , .btn-success{
+    font-size: 30px;
+    width: 45%;
+}
+
+.btn-primary:hover{
+    background-color: red;
+}
+
+canvas {
+    animation-name: shadow-effect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+    border-style :solid;
+}
+
+@keyframes shadow-effect{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+    
+}
